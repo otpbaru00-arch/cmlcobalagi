@@ -1,0 +1,7 @@
+import Sidebar from './Sidebar';
+export default function MainLayout({children}){
+return <div style={{display:'flex'}}>
+<Sidebar/>
+{children}
+</div>
+}
